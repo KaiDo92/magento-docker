@@ -18,6 +18,9 @@ services:
     elasticsearch:
         version: '7.5'
         image: 'magento/magento-cloud-docker-elasticsearch'
+    mailhog:
+        version: '1.0'
+        image: 'mailhog'
 hooks:
     build: |
         set -e

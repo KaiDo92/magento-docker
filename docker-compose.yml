@@ -161,6 +161,16 @@ services:
         condition: service_healthy
       elasticsearch:
         condition: service_healthy
+  mailhog:
+    hostname: mailhog.magento-docker.local
+    image: 'mailhog:latest'
+    ports:
+      - '1025:1025'
+      - '8025:8025'
+    networks:
+      magento:
+        aliases:
+          - mailhog.magento-docker.local
 volumes:
   magento-magento-db: {  }
 networks:
