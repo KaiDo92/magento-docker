@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70ba60ab42cba48f61f9661371a2f63a",
+    "content-hash": "70d7a35ba18a8509e74b485f9ed41f14",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.231.14",
+            "version": "3.231.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/2tvenom/CBOREncode.git",
-                "reference": "6b79b9c8204813d9674ffa7badcd567d7f608165"
+                "reference": "ba379285d24b609a997bd8b40933d3e0a3826dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/6b79b9c8204813d9674ffa7badcd567d7f608165",
-                "reference": "6b79b9c8204813d9674ffa7badcd567d7f608165",
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/ba379285d24b609a997bd8b40933d3e0a3826dfb",
+                "reference": "ba379285d24b609a997bd8b40933d3e0a3826dfb",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2022-07-26T18:20:14+00:00"
+            "time": "2022-07-27T18:59:36+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1361,6 +1361,50 @@
                 }
             ],
             "time": "2022-05-10T07:25:08+00:00"
+        },
+        {
+            "name": "ethanyehuda/magento2-cronjobmanager",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "b75be26681ae90824cde8f8df785981f293667e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/b75be26681ae90824cde8f8df785981f293667e1",
+                "reference": "b75be26681ae90824cde8f8df785981f293667e1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-posix": "*",
+                "magento/framework": "~101.0.0|~102.0.0|~103.0.0|~104.0.0",
+                "php": "~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0"
+            },
+            "require-dev": {
+                "ext-pcntl": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "EthanYehuda\\CronjobManager\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "A module for managing scheduled cron jobs from magento's admin panel",
+            "funding": [
+                {
+                    "url": "https://github.com/ethan3600",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-04-23T21:55:35+00:00"
         },
         {
             "name": "ezimuel/guzzlestreams",
@@ -3467,16 +3511,16 @@
         },
         {
             "name": "laminas/laminas-validator",
-            "version": "2.22.0",
+            "version": "2.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/2tvenom/CBOREncode.git",
-                "reference": "7baf6c147f776a05cff280f4e5a676118f0f5198"
+                "reference": "6d61b6cc3b222f13807a18d9247cdfb084958b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/7baf6c147f776a05cff280f4e5a676118f0f5198",
-                "reference": "7baf6c147f776a05cff280f4e5a676118f0f5198",
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/6d61b6cc3b222f13807a18d9247cdfb084958b03",
+                "reference": "6d61b6cc3b222f13807a18d9247cdfb084958b03",
                 "shasum": ""
             },
             "require": {
@@ -3541,7 +3585,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-07-25T09:54:49+00:00"
+            "time": "2022-07-27T19:17:59+00:00"
         },
         {
             "name": "laminas/laminas-view",
@@ -6206,10 +6250,16 @@
         {
             "name": "magento/module-bundle-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-bundle-sample-data/magento-module-bundle-sample-data-100.4.1.0.zip",
-                "shasum": "13f712fac09c2be63d90074c55fe46d1111bba88"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -6846,10 +6896,16 @@
         {
             "name": "magento/module-catalog-rule-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-rule-sample-data/magento-module-catalog-rule-sample-data-100.4.1.0.zip",
-                "shasum": "b2e524508a6830c9ef3be97c5853e8b7818553ed"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -6877,10 +6933,16 @@
         {
             "name": "magento/module-catalog-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-sample-data/magento-module-catalog-sample-data-100.4.1.0.zip",
-                "shasum": "926bc82116d7e99bbc595f8ec3510f18297772e9"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -7333,10 +7395,16 @@
         {
             "name": "magento/module-cms-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-sample-data/magento-module-cms-sample-data-100.4.1.0.zip",
-                "shasum": "423965e95265992d43fc250f856249f2e0ee4fe3"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -7687,10 +7755,16 @@
         {
             "name": "magento/module-configurable-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-configurable-sample-data/magento-module-configurable-sample-data-100.4.1.0.zip",
-                "shasum": "f205674db3a47af72642dfc90730004adb6cf57c"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -8115,10 +8189,16 @@
         {
             "name": "magento/module-customer-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-customer-sample-data/magento-module-customer-sample-data-100.4.1.0.zip",
-                "shasum": "0fc9eca450d8fc59e180548a232f4d62d103d3af"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -8471,10 +8551,16 @@
         {
             "name": "magento/module-downloadable-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-downloadable-sample-data/magento-module-downloadable-sample-data-100.4.1.0.zip",
-                "shasum": "4b0b5c1748d255f7c066835aa48fee46fd0319d3"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -9259,10 +9345,16 @@
         {
             "name": "magento/module-grouped-product-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-grouped-product-sample-data/magento-module-grouped-product-sample-data-100.4.1.0.zip",
-                "shasum": "ef8fc12369378226663c3b30d626587c6e06d5c2"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -13798,10 +13890,16 @@
         {
             "name": "magento/module-msrp-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-msrp-sample-data/magento-module-msrp-sample-data-100.4.1.0.zip",
-                "shasum": "6c292d4a008b5f01f926c48d8a0b3f00595f3f9a"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -14113,10 +14211,16 @@
         {
             "name": "magento/module-offline-shipping-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-offline-shipping-sample-data/magento-module-offline-shipping-sample-data-100.4.1.0.zip",
-                "shasum": "e31f2adff25a283f1e7841e6ded7eaebeea39b87"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -14606,10 +14710,16 @@
         {
             "name": "magento/module-product-links-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-product-links-sample-data/magento-module-product-links-sample-data-100.4.1.0.zip",
-                "shasum": "fa4008aef9881d200684f8334e1f5493e7305c26"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -16061,10 +16171,16 @@
         {
             "name": "magento/module-review-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-review-sample-data/magento-module-review-sample-data-100.4.1.0.zip",
-                "shasum": "4ea5b2d1a0908db138cb8912015d152c305ad6c1"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -16432,10 +16548,16 @@
         {
             "name": "magento/module-sales-rule-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-sales-rule-sample-data/magento-module-sales-rule-sample-data-100.4.1.0.zip",
-                "shasum": "704d67f96611724c4f6379dc632c606f04b3c8a0"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -16462,10 +16584,16 @@
         {
             "name": "magento/module-sales-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-sales-sample-data/magento-module-sales-sample-data-100.4.1.0.zip",
-                "shasum": "0e9f5f7833bd1b4d57f96d156820f7b4d46b5478"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -17163,10 +17291,16 @@
         {
             "name": "magento/module-swatches-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-swatches-sample-data/magento-module-swatches-sample-data-100.4.1.0.zip",
-                "shasum": "7c3f97902e21335dd72d524549f4f2260305523c"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -17317,10 +17451,16 @@
         {
             "name": "magento/module-tax-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-tax-sample-data/magento-module-tax-sample-data-100.4.1.0.zip",
-                "shasum": "81e47a3d5d556cecdb9664648f3cc5de02d62687"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -17430,10 +17570,16 @@
         {
             "name": "magento/module-theme-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-theme-sample-data/magento-module-theme-sample-data-100.4.1.0.zip",
-                "shasum": "245e5e93e2ad3d7d7b704f8e932d5d234d03c4a0"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18176,10 +18322,16 @@
         {
             "name": "magento/module-widget-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-widget-sample-data/magento-module-widget-sample-data-100.4.1.0.zip",
-                "shasum": "01765593e79b61517b1fd2e1467b7c53174f30ad"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18334,10 +18486,16 @@
         {
             "name": "magento/module-wishlist-sample-data",
             "version": "100.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-wishlist-sample-data/magento-module-wishlist-sample-data-100.4.1.0.zip",
-                "shasum": "505e8584ffa8ff772ff9124ea3a387d65b2ac4c9"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "require": {
                 "magento/framework": "103.0.*",
@@ -18714,10 +18872,16 @@
         {
             "name": "magento/sample-data-media",
             "version": "100.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2tvenom/CBOREncode.git",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/sample-data-media/magento-sample-data-media-100.4.0.0.zip",
-                "shasum": "33caf16bf82e557b63b0891d5656f8836385a66a"
+                "url": "https://api.github.com/repos/2tvenom/CBOREncode/zipball/42aedccb861d01fc0554782348cc08f8ebf22332",
+                "reference": "42aedccb861d01fc0554782348cc08f8ebf22332",
+                "shasum": ""
             },
             "type": "magento2-component",
             "extra": {
@@ -18912,6 +19076,46 @@
                 "framework"
             ],
             "time": "2022-06-21T01:22:39+00:00"
+        },
+        {
+            "name": "markshust/magento2-module-disabletwofactorauth",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markshust/magento2-module-disabletwofactorauth.git",
+                "reference": "c0f3162477c62368583e2d736b5137d7c328cf2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markshust/magento2-module-disabletwofactorauth/zipball/c0f3162477c62368583e2d736b5137d7c328cf2a",
+                "reference": "c0f3162477c62368583e2d736b5137d7c328cf2a",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": ">=103",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MarkShust\\DisableTwoFactorAuth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The DisableTwoFactorAuth module provides the ability to disable two-factor authentication.",
+            "funding": [
+                {
+                    "url": "https://github.com/markshust",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-11-10T14:54:39+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -25487,16 +25691,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.59.1",
+            "version": "2.60.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5"
+                "reference": "00a259ae02b003c563158b54fb6743252b638ea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
-                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/00a259ae02b003c563158b54fb6743252b638ea6",
+                "reference": "00a259ae02b003c563158b54fb6743252b638ea6",
                 "shasum": ""
             },
             "require": {
@@ -25580,7 +25784,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-29T21:43:55+00:00"
+            "time": "2022-07-27T15:57:48+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -28591,5 +28795,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "1.1.0"
 }
