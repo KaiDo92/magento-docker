@@ -163,7 +163,7 @@ services:
         condition: service_healthy
   mailhog:
     hostname: mailhog.magento-docker.local
-    image: 'mailhog:latest'
+    image: 'mailhog/mailhog:latest'
     ports:
       - '1025:1025'
       - '8025:8025'
