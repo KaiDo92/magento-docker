@@ -28,19 +28,18 @@ return [
         ]
     ])),
     'MAGENTO_CLOUD_ROUTES' => base64_encode(json_encode([
-        'http://magento-docker.local/' => [
+        'http://magento2.docker/' => [
             'type' => 'upstream',
             'original_url' => 'http://{default}'
         ],
-        'https://magento-docker.local/' => [
+        'https://magento2.docker/' => [
             'type' => 'upstream',
             'original_url' => 'https://{default}'
         ]
     ])),
     'MAGENTO_CLOUD_VARIABLES' => base64_encode(json_encode([
         'ADMIN_EMAIL' => 'admin@example.com',
-        'ADMIN_USERNAME' => 'admin',
-        'ADMIN_PASSWORD' => 'Admin123$',
+        'ADMIN_PASSWORD' => '123123q',
         'ADMIN_URL' => 'admin'
     ])),
     'MAGENTO_CLOUD_APPLICATION' => base64_encode(json_encode([
