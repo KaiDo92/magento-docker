@@ -1,4 +1,4 @@
-# ./vendor/bin/ece-docker 'build:compose' --host='magento2.docker' --mode=developer --mailhog-smtp-port=1025 --mailhog-http-port=8025 --tls-port=8080
+# ./vendor/bin/ece-docker 'build:compose' --host='magento2.docker' --mode=developer --mailhog-smtp-port=1025 --mailhog-http-port=8025
 version: '2.1'
 services:
   db:
@@ -115,8 +115,8 @@ services:
       - UPSTREAM_HOST=varnish
       - UPSTREAM_PORT=80
     ports:
-      - '80:80'
-      - '8080:443'
+      - '8080:80'
+      - '443:443'
     depends_on:
       varnish:
         condition: service_started
